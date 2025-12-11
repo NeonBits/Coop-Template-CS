@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://dckmy2r1vu3re"]
 
-[ext_resource type="Script" uid="uid://d0wk4rk6f43ec" path="res://level.gd" id="1_vonw3"]
+[ext_resource type="Script" uid="uid://c6dn523ngae2f" path="res://Level.cs" id="1_u52ul"]
 [ext_resource type="PackedScene" uid="uid://bbb6uhyhkrkuo" path="res://player.tscn" id="2_oi3di"]
 
 [node name="Level" type="Node"]
-script = ExtResource("1_vonw3")
-player_scene = ExtResource("2_oi3di")
+script = ExtResource("1_u52ul")
+PlayerScene = ExtResource("2_oi3di")
 
 [node name="Spawner" type="Node" parent="."]
 
