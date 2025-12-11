@@ -12,13 +12,13 @@ config_version=5
 
 config/name="Template"
 run/main_scene="uid://dgh5mt7w2shk1"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "C#", "Forward Plus")
 config/icon="res://assets/icon.svg"
 
 [autoload]
 
-NetworkManager="*res://AutoLoad Scripts/NetworkManager.gd"
-GameManager="*res://AutoLoad Scripts/GameManager.gd"
+NetworkManager="*res://AutoLoad Scripts/NetworkManager.cs"
+GameManager="*res://AutoLoad Scripts/GameManager.cs"
 
 [display]
 
@@ -27,6 +27,10 @@ window/size/viewport_height=1080
 window/size/window_width_override=960
 window/size/window_height_override=540
 window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="Template"
 
 [input]
 
