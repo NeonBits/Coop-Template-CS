@@ -1,2 +1,0 @@
-﻿59186
-C:/Users/Andrew/Documents/Godot/Godot 4.5.1/Godot_v4.5.1-stable_mono_win64.exe

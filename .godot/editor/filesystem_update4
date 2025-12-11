@@ -1,9 +1,0 @@
-res://Player.cs
-res://Game.cs
-res://AutoLoad Scripts/NetworkManager.cs
-res://Root.cs
-res://player.tscn
-res://assets/theme.tres
-res://Level.cs
-res://level.tscn
-res://AutoLoad Scripts/GameManager.cs
